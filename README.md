@@ -29,6 +29,10 @@ Then you can run the model
 ./DSCSM046.EXE A <your experiment file>
 ```
 
+## Notes
+Currently the Vagrantfile clones a fork of the main DSSAT repository. The branch introduces bug fixes which are required for *NIX systems but are not presently in the main repo.
+
 ## Dependencies
 - Vagrant (and thus VirtualBox)
 - Access to the DSSAT source code on GitHub
+
