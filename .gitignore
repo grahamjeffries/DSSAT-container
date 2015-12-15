@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Generated folders
+dssat-csm/
+DSSAT46/
+obj/
+makefile
+
+# Vagrant files
+.vagrant
+
+# Sublime settings
+*.sublime-workspace
+*.sublime-project
