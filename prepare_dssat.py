@@ -44,7 +44,7 @@ def enable_linux_mode(filename):
 
 def create_makefile():
     '''
-    Generate a makefile for compiling DSSAT
+    Generate a makefile for compiling DSSAT. Original function by Kelly Thorp with modifications by Graham Jeffries
     '''
     logging.info("Creating makefile")
 
