@@ -13,7 +13,8 @@ Move into the project directory
 ```
 cd DSSAT-container
 ```
-Launch the vagrant instance and DSSAT model will be built
+To allow the Vagrant instance to clone private git repositories you have access to, your ssh private key must be available to the local ssh-agent. You can check with ```ssh-add -L```. If it's not listed add it with ```ssh-add <path to key, e.g. ~/.ssh/id_rsa>```
+Launch the Vagrant instance and DSSAT model will be built
 ```
 vagrant up
 ```
@@ -30,7 +31,7 @@ Then you can run the model
 ```
 
 ## Notes
-Currently the Vagrantfile clones a fork of the main DSSAT repository. The branch introduces bug fixes which are required for *NIX systems but are not presently in the main repo.
+Currently the Vagrantfile clones a fork of the main DSSAT repository. The fork introduces bug fixes which are required for *NIX systems but are not presently in the main repo.
 
 ## Dependencies
 - Vagrant (and thus VirtualBox)
